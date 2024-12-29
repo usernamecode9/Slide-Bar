@@ -62,14 +62,13 @@
 
  .sidebar_menu .menu {
     position: absolute;
-    width: 100px;
+    width: 100%;
     top: 80px;
     color: white;
 }
 
 .sidebar_menu .menu li {
-    padding: 15px 29px;
-    width: 30vh;
+   padding: 15px 29px;
 }
 
 .sidebar_menu .menu i,a {
@@ -126,3 +125,4 @@
 #check:checked ~ .sidebar_menu .btn_two i {
     opacity: 1;
 }
+
